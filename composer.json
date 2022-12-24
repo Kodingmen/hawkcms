@@ -1,0 +1,6 @@
+{
+    "require": {
+        "laravel/framework": "^9.45",
+        "laravel/ui": "^4.1"
+    }
+}
