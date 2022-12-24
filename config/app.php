@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 
-return [
+$appConfig = [
 
     /*
     |--------------------------------------------------------------------------
@@ -213,3 +213,11 @@ return [
     ])->toArray(),
 
 ];
+
+if(class_exists(Tuezy\Providers\AppServiceProvider::class)){
+    $appConfig['providers'] = array_merge($appConfig['providers'] , [
+        Tuezy\Providers\AppServiceProvider::class
+    ]);
+}
+
+return $appConfig;
