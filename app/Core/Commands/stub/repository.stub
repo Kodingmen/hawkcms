@@ -1,0 +1,13 @@
+<?php
+namespace App\Repository\{{modelNamePluralUpperCase}};
+
+use App\Core\Repository\Repository;
+use App\Models\{{modelName}};
+
+class {{modelName}}Repository extends Repository implements {{modelName}}RepositoryContract{
+
+    public function model(): string
+    {
+        return {{modelName}}::class;
+    }
+}

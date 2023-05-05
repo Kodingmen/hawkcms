@@ -1,0 +1,6 @@
+<?php
+namespace App\Repository\{{modelNamePluralUpperCase}};
+
+use App\Core\Repository\RepositoryContract;
+
+interface {{modelName}}RepositoryContract extends RepositoryContract {}

@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::controller("\\App\\Http\\Controllers\\Dashboard\\{{modelName}}Controller")->group(function(){
+        Route::get('{{modelNamePluralLowerCase}}','show')
+                    ->permission("Show {{modelName}}")
+                    ->name("{{modelNamePluralLowerCase}}.show");
+        Route::get('{{modelNamePluralLowerCase}}','edit')
+                            ->permission("Show {{modelName}}")
+                            ->name("{{modelNamePluralLowerCase}}.show");
+        Route::get('{{modelNamePluralLowerCase}}','show')
+                            ->permission("Show {{modelName}}")
+                            ->name("{{modelNamePluralLowerCase}}.show");
+
+        foreach (['show', 'edit', 'update', 'create', 'store', 'delete'] as $action){
+
+            if(in_array($action, ['show', 'edit', 'create'])){
+                Route::get($key,$action)
+                    ->permission(implode([ucfirst($action), ' ', ucfirst($key)]))
+                    ->name("{$key}.{$action}");
+            }
+
+            if(in_array($action, ['update', 'store'])){
+                Route::put($key,$action)
+                    ->permission(implode([ucfirst($action), ' ', ucfirst($key)]))
+                    ->name("{$key}.{$action}");
+            }
+
+            if(in_array($action, ['delete'])){
+                Route::delete($key,$action)
+                    ->permission(implode([ucfirst($action), ' ', ucfirst($key)]))
+                    ->name("{$key}.{$action}");
+            }
+        }
+    });
