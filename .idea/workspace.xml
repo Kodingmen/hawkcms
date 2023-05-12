@@ -5,15 +5,292 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71dd477d-4d99-4e63-8208-598184f2f391" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/libraries/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/repository/src/BaseRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/repository/src/RepositoryContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Admin/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Models/District.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Models/District.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Models/Ward.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Models/Ward.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Providers/CoreServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Providers/CoreServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Cities/CityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Repository/Cities/CityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Cities/CityRepositoryCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Districts/DistrictRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Repository/Districts/DistrictRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Districts/DistrictRepositoryCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Wards/WardRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/Repository/Wards/WardRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/Repository/Wards/WardRepositoryCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Repository/BaseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/Repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/RepositoryCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/RepositoryContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Repository/RepositoryContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/Traits/Common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/Repository/Traits/CommonCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/Lock.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/Lock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisTagSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/RedisTagSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Arr.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Arr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Collections/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/BufferedConsoleOutput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/BufferedConsoleOutput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/QuestionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/QuestionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Cache/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Cache/Repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DBAL/TimestampType.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DBAL/TimestampType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Client/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Client/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/FileHelpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/FileHelpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/MailManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/MailManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Queue/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/ConcurrencyLimiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/ConcurrencyLimiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/DurationLimiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/DurationLimiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ValidateSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ValidateSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/SortedMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/SortedMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Session/SymfonySessionDecorator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Session/SymfonySessionDecorator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Carbon.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Carbon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Js.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Js.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Timebox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Timebox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ReplacesAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ReplacesAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/ChangeLog.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/ChangeLog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/SECURITY.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/SECURITY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/src/ExcludeIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/src/ExcludeIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/src/Iterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/src/Iterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-10.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-10.1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/TestSuiteSorter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/TestSuiteSorter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/src/Backtrace.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/src/CodeSnippet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/src/File.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/backtrace/src/Frame.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Concerns/HasContext.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Concerns/UsesTime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Context/BaseContextProviderDetector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Context/ConsoleContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Context/ContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Context/ContextProviderDetector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Context/RequestContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Contracts/ProvidesFlareContext.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Enums/MessageLevels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Flare.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddDocumentationLinks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddEnvironmentInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddGitInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddGlows.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddNotifierName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/AddSolutions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/CensorRequestBodyFields.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/CensorRequestHeaders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/FlareMiddleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/FlareMiddleware/RemoveRequestIp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Frame.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Glows/Glow.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Glows/GlowRecorder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Exceptions/BadResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Exceptions/BadResponseCode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Exceptions/InvalidData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Exceptions/MissingParameter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Exceptions/NotFound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Http/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Report.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Solutions/ReportSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Time/SystemTime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Time/Time.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Truncation/AbstractTruncationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Truncation/ReportTrimmer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Truncation/TrimContextItemsStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Truncation/TrimStringsStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/Truncation/TruncationStrategy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/flare-client-php/src/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/resources/compiled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/resources/compiled/ignition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/resources/compiled/ignition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/resources/views/aiPrompt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/resources/views/errorPage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Config/FileConfigManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Config/IgnitionConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/BaseSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/ConfigManager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/HasSolutionsForThrowable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/ProvidesSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/RunnableSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/Solution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Contracts/SolutionProviderRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/ErrorPage/ErrorPageViewModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/ErrorPage/Renderer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Ignition.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/OpenAi/DummyCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/OpenAi/OpenAiPromptViewModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/OpenAi/OpenAiSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/OpenAi/OpenAiSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/OpenAi/OpenAiSolutionResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SolutionProviders/BadMethodCallSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SolutionProviders/MergeConflictSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SolutionProviders/SolutionProviderRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SolutionProviders/UndefinedPropertySolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SolutionTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/ignition/src/Solutions/SuggestImportSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/config/flare.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/config/ignition.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/SolutionMakeCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/SolutionProviderMakeCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/TestCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/stubs/runnable-solution.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/stubs/solution-provider.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Commands/stubs/solution.stub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/ContextProviders/LaravelConsoleContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/ContextProviders/LaravelContextProviderDetector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/ContextProviders/LaravelLivewireRequestContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/ContextProviders/LaravelRequestContextProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Exceptions/CannotExecuteSolutionForNonLocalIp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Exceptions/InvalidConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Exceptions/ViewException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Exceptions/ViewExceptionWithSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Facades/Flare.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddDumps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddEnvironmentInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddExceptionInformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddJobs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddLogs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddNotifierName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/FlareMiddleware/AddQueries.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Controllers/ExecuteSolutionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Controllers/HealthCheckController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Controllers/UpdateConfigController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Middleware/RunnableSolutionsEnabled.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Requests/ExecuteSolutionRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Http/Requests/UpdateConfigRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/IgnitionServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/Dump.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/DumpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/DumpRecorder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/HtmlDumper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/DumpRecorder/MultiDumpHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/JobRecorder/JobRecorder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/LogRecorder/LogMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/LogRecorder/LogRecorder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/QueryRecorder/Query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Recorders/QueryRecorder/QueryRecorder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Renderers/ErrorPageRenderer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Renderers/IgnitionExceptionRenderer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/GenerateAppKeySolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/LivewireDiscoverSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/MakeViewVariableOptionalSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/RunMigrationsSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/DefaultDbNameSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/GenericLaravelExceptionSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/IncorrectValetDbCredentialsSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/InvalidRouteActionSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/LazyLoadingViolationSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingAppKeySolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingColumnSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingImportSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingLivewireComponentSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingMixManifestSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/MissingViteManifestSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/OpenAiSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/RouteNotDefinedSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/RunningLaravelDuskInProductionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/SolutionProviderRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/TableNotFoundSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/UndefinedLivewireMethodSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/UndefinedLivewirePropertySolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/UndefinedViewVariableSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/UnknownValidationSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionProviders/ViewNotFoundSolutionProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SolutionTransformers/LaravelSolutionTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SuggestImportSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SuggestLivewireMethodNameSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SuggestLivewirePropertyNameSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/SuggestUsingCorrectDbNameSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Solutions/UseDefaultValetDbCredentialsSolution.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/Composer/Composer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/Composer/ComposerClassMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/Composer/FakeComposer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/FlareLogHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/LaravelDocumentationLinkFinder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/LaravelVersion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/LivewireComponentParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/RunnableSolutionsGuard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/SentReports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Support/StringComparator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Views/BladeSourceMapCompiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/Views/ViewExceptionMapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-ignition/src/ignition-routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -49,14 +326,10 @@
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/league/config" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
-      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
-      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
-      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
@@ -139,24 +412,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Laragon_localhost/sso/system/Kernel",
+    "last_opened_file_path": "E:/Laragon_localhost/sso/packages/repository/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2022.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Laragon_localhost\sso\system\Kernel" />
+      <recent name="E:\Laragon_localhost\sso\packages\repository\src" />
+      <recent name="E:\Laragon_localhost\sso\libraries\resources" />
       <recent name="E:\Laragon_localhost\sso" />
+      <recent name="E:\Laragon_localhost\sso\system\Kernel" />
       <recent name="E:\Laragon_localhost\sso\app\Core\Database\Seeders" />
-      <recent name="E:\Laragon_localhost\sso\libraries" />
-      <recent name="E:\Laragon_localhost\sso\app\Core\Database\Migration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Laragon_localhost\sso\libraries" />
       <recent name="E:\Laragon_localhost\sso\app\Core\Database\Seeders" />
     </key>
   </component>
@@ -174,7 +450,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683167101765</updated>
-      <workItem from="1683167103321" duration="33681000" />
+      <workItem from="1683167103321" duration="35526000" />
+      <workItem from="1683279174117" duration="6220000" />
+      <workItem from="1683308793403" duration="1021000" />
+      <workItem from="1683346913627" duration="4923000" />
+      <workItem from="1683513116410" duration="3393000" />
+      <workItem from="1683517684316" duration="637000" />
+      <workItem from="1683857926430" duration="13216000" />
     </task>
     <servers />
   </component>

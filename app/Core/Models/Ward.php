@@ -13,7 +13,9 @@ class Ward extends Model
 
     protected $fillable = ['name', 'slug', 'type', 'name_with_type', 'code' , 'path', 'path_with_type', 'parent_code'];
 
-    public $timestamps = true;
+    protected $visible = [
+        'id', 'name', 'name_with_type', 'path_with_type'
+    ];
 
     public function district(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {

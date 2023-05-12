@@ -13,7 +13,11 @@ class District extends Model
 
     protected $fillable = ['name', 'slug', 'type', 'name_with_type', 'code' , 'path', 'path_with_type', 'parent_code'];
 
-    public function cities(){
+    protected $visible = [
+        'id', 'name', 'name_with_type', 'path_with_type'
+    ];
+    protected $with = ['wards', 'city'];
+    public function city(){
         return $this->belongsTo(City::class);
     }
 

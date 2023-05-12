@@ -26,10 +26,11 @@ $app->singleton(
 
 \Illuminate\Support\Facades\Facade::setFacadeApplication($app);
 
-$app->usePublicPath(ROOT);
+$app->usePublicPath(ROOT . "public");
 $app->useEnvironmentPath(ROOT);
 $app->useStoragePath(ROOT . "/storage");
 $app->useBootstrapPath(storage_path("bootstrap"));
 $app->useAppPath(ROOT . "app");
 $app->useDatabasePath(LIBRARIES . "database");
+
 return $app;

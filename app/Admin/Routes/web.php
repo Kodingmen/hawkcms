@@ -1,13 +1,15 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('/admin', function () {
-    $queue = \Illuminate\Support\Facades\Queue::push('LogMessage',array('message'=>'Time: '.time()));
-    return $queue;
+Route::get("/admin", function (){
+    $city = app(\App\Core\Repository\Cities\CityRepositoryContract::class);
+    dump(\App\Core\Models\City::with('districts')->where('id', '=',2)->get());
+    dump(\App\Core\Models\City::with('districts')->where(function ($q){
+        return $q->where('id', '=',3);
+    })->get());
+    dump($city->with('districts')->where(function ($q){
+        return $q->where('id', '=',2);
+    })->get());
+    dump($city->with('districts')->where('id', '!=',6)->where('id', '=',2)->get());
+    dump($city->with('districts')->where('id', '=',2)->where('id', '!=',6)->get());
 });
-class LogMessage{
-    public function fire($job, $date){
-        \Illuminate\Support\Facades\File::append(app_path().'/queue.txt',$date['message'].PHP_EOL);
-        $job->delete();
-    }
-}

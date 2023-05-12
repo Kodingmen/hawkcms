@@ -2,13 +2,13 @@
 namespace App\Core\Repository\Cities;
 
 use App\Core\Models\City;
+use System\Repository\BaseRepository;
 
-use System\Repository\Repository;
-
-class CityRepository extends Repository implements CityRepositoryContract {
+class CityRepository extends BaseRepository implements CityRepositoryContract {
 
     public function model(): string
     {
         return City::class;
     }
+
 }

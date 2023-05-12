@@ -1,9 +1,9 @@
 <?php
 namespace App\Core\Repository\Wards;
 use App\Core\Models\Ward;
-use System\Repository\Repository;
+use System\Repository\BaseRepository;
 
-class WardRepository extends Repository implements WardRepositoryContract{
+class WardRepository extends BaseRepository implements WardRepositoryContract{
 
     public function model(): string
     {
