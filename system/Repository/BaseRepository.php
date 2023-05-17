@@ -34,17 +34,24 @@ abstract class BaseRepository implements RepositoryContract
         return $this->model = $model;
     }
 
+
+
+
+    protected function isSaveOrUpdateAction($method){
+        return Str::contains($method, ['find', 'all', 'create', 'update']) || $method === 'get';
+    }
+
     public function __call($method, $parameters)
     {
         $this->chain[] = [$method, $parameters];
 
-        if(! Str::contains(Str::lower($method), ['get', 'find', 'all'])){
+        if(! $this->isSaveOrUpdateAction(Str::lower($method))){
             return $this;
         }
+
         return $this->resolveChain();
 
     }
-
     /**
      * Handle dynamic static method calls into the model.
      *
@@ -79,7 +86,6 @@ abstract class BaseRepository implements RepositoryContract
                 $method .
                 serialize(json_encode($parameters))
             );
-
         }
         $this->finalCacheKey = implode('_',Arr::sort($this->cacheKey));
     }
@@ -93,22 +99,24 @@ abstract class BaseRepository implements RepositoryContract
         }
 
         foreach ($this->chain as $callback) {
-            $method = $callback[0];
-            $parameters = $callback[1];
-            if(is_null($this->model)){
-                $this->model = $this->getModel();
-                $this->result =  call_user_func_array([$this->model, $method], $parameters);
-            }else{
-                $this->result =  call_user_func_array([$this->result, $method], $parameters);
-            }
+            $this->result = $this->executeMethod($callback[0], $callback[1]);
         }
-
 
         Cache::put($this->finalCacheKey, $this->result);
 
         return tap($this->result , function (){
             $this->reset();
         });
+    }
+
+    private function executeMethod($method, $parameters){
+        if(is_null($this->model)){
+            $this->model = $this->getModel();
+            return call_user_func_array([$this->model, $method], $parameters);
+        }
+
+        return call_user_func_array([$this->result, $method], $parameters);
+
     }
 
 }

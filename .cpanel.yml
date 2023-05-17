@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/kodingme/public_html/
-    - /bin/cp -R /home/kodingme/repositories/hawkcms $DEPLOYPATH

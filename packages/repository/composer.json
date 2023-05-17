@@ -1,9 +1,0 @@
-{
-    "name": "tuezy/repository",
-    "autoload": {
-        "psr-4": {
-            "Tuezy\\Repository\\": "src/"
-        }
-    },
-    "require": {}
-}
